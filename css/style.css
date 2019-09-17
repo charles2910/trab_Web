@@ -19,6 +19,11 @@ p {
   color: #26a69a;
 }
 
+.titulo {
+  color: #33ffbb !important;
+  font-weight: 700 !important;
+}
+
 .parallax-container {
   min-height: 600px;
   line-height: 0;
@@ -61,4 +66,8 @@ footer.page-footer {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+}
+
+#endereco {
+  padding: 70px 15px;
 }
