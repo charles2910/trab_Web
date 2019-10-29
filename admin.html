@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<!-- Feito por Carlos Henrique Lima Melara - 9805380 -->
+<!-- com base no template disponibilizado em materialize.com   -->
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Firehouse Pet Shop</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">Firehouse Pet Shop</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="dicas.html">Dicas</a></li>
+          <li><a href="usuario.html">Área do Usuário</a></li>
+          <li><a href="#"><i class="material-icons">account_circle</i>
+          </a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="dicas.html">Dicas</a></li>
+          <li><a href="usuario.html">Área do Usuário</a></li>
+          <li><a href="#"><i class="material-icons">account_circle</i>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+
+        <div class="col s12">
+          <div class="card hoverable">
+            <div class="card-content teal">
+              <h4>Informações do Administrador</h4>
+            </div>
+            <div class="card-content">
+              <div class="row valign-wrapper">
+                <div class="col s2">
+                  <i class="material-icons large">account_circle</i>
+                </div>
+                <div class="col s10">
+                  <h6>Nome</h6>
+                  <p>Jane Doe</p>
+                  <h6>Endereço</h6>
+                  <p>Rua Alceu Guimarães, 1535, São Carlos, SP</p>
+                  <h6>Telefone</h6>
+                  <p>(16) 3373-1551</p>
+                </div>
+              </div>
+            <div class="card-action center">
+              <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Alterar Informações</a>
+              <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Adicionar Administrador</a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content teal">
+              <h4>Serviços Disponíveis</h4>
+            </div>
+            <div class="card-content">
+              <div class="row valign-wrapper">
+                <div class="col s12">
+
+                  <table class="highlight responsive-table">
+                    <thead>
+                      <tr>
+                          <th>Name</th>
+                          <th>Preço Cobrado</th>
+                          <th>Custo</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr>
+                        <td>Banho</td>
+                        <td>R$ 100.00</td>
+                        <td>R$ 40.00</td>
+                      </tr>
+                      <tr>
+                        <td>Tosa</td>
+                        <td>R$ 60.00</td>
+                        <td>R$ 20.00</td>
+                      </tr>
+                      <tr>
+                        <td>Gravura</td>
+                        <td>R$ 300.00</td>
+                        <td>R$ 50.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+            <div class="card-action center">
+              <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Adicionar Serviço</a>
+              <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Alterar Serviço</a>
+              <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Excluir Serviço</a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content teal">
+              <h4>Produtos Disponíveis</h4>
+            </div>
+            <div class="card-content">
+              <div class="row valign-wrapper">
+                <div class="col s12">
+
+                  <table class="highlight responsive-table">
+                    <thead>
+                      <tr>
+                          <th>ID Item</th>
+                          <th>Nome</th>
+                          <th>Quantidade Disponível</th>
+                          <th>Preço Cobrado</th>
+                          <th>Custo</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Coleira</td>
+                        <td>10</td>
+                        <td>R$ 100.00</td>
+                        <td>R$ 40.00</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Sapato</td>
+                        <td>64</td>
+                        <td>R$ 60.00</td>
+                        <td>R$ 20.00</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Roupa</td>
+                        <td>13</td>
+                        <td>R$ 300.00</td>
+                        <td>R$ 50.00</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Ração</td>
+                        <td>160</td>
+                        <td>R$ 100.00</td>
+                        <td>R$ 50.00</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>Xampu</td>
+                        <td>13</td>
+                        <td>R$ 30.00</td>
+                        <td>R$ 5.00</td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>Laço</td>
+                        <td>132</td>
+                        <td>R$ 8.00</td>
+                        <td>R$ 1.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+            <div class="card-action center">
+              <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Adicionar Produto</a>
+              <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Alterar Produto</a>
+              <a href="#" class="btn-large waves-effect waves-light teal lighten-1">Excluir Produto</a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">A Empresa</h5>
+          <p class="grey-text text-lighten-4">A Firehouse Pet Shop é uma empresa criada por pessoas apaixonadas por animais. Faz 5 anos que continuamos mostrando nosso amor pelos <i>pets</i>.</p>
+
+        </div>
+        <div class="col l3 s12 right">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">E-mail</a></li>
+            <li><a class="white-text" href="#!">Facebook</a></li>
+            <li><a class="white-text" href="#!">Instagram</a></li>
+            <li><a class="white-text" href="#!">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made using <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>
